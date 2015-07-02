@@ -1,6 +1,6 @@
 === Wtyczka SeoPilot dla WP ===
 Contributors: SeoPilot
-Tags: manymaker
+Tags: moneymaker
 Requires at least: 3.0.1
 Tested up to: 3.4
 Stable tag: 4.3
@@ -13,6 +13,11 @@ Here is a short description of the plugin.  This should be no more than 150 char
 
 Wtyczka umożliwia wyświetlanie reklam systemu seopilot.pl przy użyciu widgetów lub short code'u. Jeśli Twój serwis został stworzony w oparciu o CMS WordPress, możesz zainstalować nasz kod boksu reklamowego bezpośrednio w panelu administratora, po prostu instalując poniższą wtyczkę.
 
+Dostępne funkcje wtyczki:
+- Możliwość zamieszczania kodu reklamowego w widgetach
+- Możliwość wstawiania kodu przy użyciu shortcode
+- Możliwość zmiany kodowania reklam
+- Możliwość włączania i wyłączania trybu testowego
 
 == Installation ==
 
@@ -37,22 +42,5 @@ Kod boksu reklamowego nie może być zainstalowany w stopce strony. Serwisy z ko
 Jeśli Twój serwis korzysta z funkcji cache’owania, zalecamy na czas indeksacji tę funkcję wyłączyć, natomiast po pomyślnej weryfikacji ustawić czas ważności cache w taki sposób, aby odnawianie cache’u dokonywało się przynajmniej raz na 3 godziny.
 Jeśli CMS Twojego serwisu powoduje wycinanie komentarzy html, dla poprawnego działania kodu należy tę funkcję wyłączyć.
 
-== Frequently Asked Questions ==
-
-
-== Screenshots ==
-
-
-== Changelog ==
-
-
-== Arbitrary section ==
-
-
 == A brief Markdown Example ==
 
-Dostępne funkcje wtyczki:
-- Możliwość zamieszczania kodu reklamowego w widgetach
-- Możliwość wstawiania kodu przy użyciu shortcode
-- Możliwość zmiany kodowania reklam
-- Możliwość włączania i wyłączania trybu testowego
