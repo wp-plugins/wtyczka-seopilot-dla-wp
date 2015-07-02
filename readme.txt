@@ -7,9 +7,12 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Wtyczka umożliwia wyświetlanie reklam systemu seopilot.pl przy użyciu widgetów lub short code'u. Jeśli Twój serwis został stworzony w oparciu o CMS WordPress, możesz zainstalować nasz kod boksu reklamowego bezpośrednio w panelu administratora, po prostu instalując poniższą wtyczkę.
+Wtyczka umożliwia wyświetlanie reklam systemu seopilot.pl przy użyciu widgetów lub short code'u. 
 
 == Description ==
+
+Wtyczka umożliwia wyświetlanie reklam systemu seopilot.pl przy użyciu widgetów lub short code'u.
+Jeśli Twój serwis został stworzony w oparciu o CMS WordPress, możesz zainstalować nasz kod boksu reklamowego bezpośrednio w panelu administratora, po prostu instalując poniższą wtyczkę.
 
 Dostępne funkcje wtyczki:
 
