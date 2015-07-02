@@ -1,6 +1,6 @@
 === Wtyczka SeoPilot dla WP ===
 Contributors: SeoPilot
-Tags: moneymaker
+Tags: moneymaker, widget, shortcode, advertising
 Requires at least: 3.0.1
 Tested up to: 3.4
 Stable tag: 4.3
