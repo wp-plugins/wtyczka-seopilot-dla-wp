@@ -1,7 +1,6 @@
-=== Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: http://example.com/
-Tags: comments, spam
+=== Wtyczka SeoPilot dla WP ===
+Contributors: SeoPilot
+Tags: manymaker
 Requires at least: 3.0.1
 Tested up to: 3.4
 Stable tag: 4.3
