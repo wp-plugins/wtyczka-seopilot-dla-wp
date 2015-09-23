@@ -1,7 +1,7 @@
 <?php
 class SeoPilotClient
 {
-	var $sp_version				= '3.03';
+	var $sp_version				= '3.04';
 	static $sp_socket_timeout	= 10;
 
 	static $sp_logicPL			= '';
@@ -16,7 +16,7 @@ class SeoPilotClient
 	private static $domain		= 'www.seopilot.pl';
 
 	var $params = array(
-		"__allow_ip__"			=> array('188.127.246.50', '188.127.242.122'),
+		"__allow_ip__"			=> array('95.163.118.174'),
 		"__cache_life_time__"	=> 3600,
 		"__cache_reload_time__"	=> 300,
 		"__charset__"			=> 'DEFAULT',

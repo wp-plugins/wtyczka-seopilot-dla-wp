@@ -30,7 +30,7 @@ Dostępne funkcje wtyczki:
 1. Otwórz ustawienia wtyczki i wprowadź swój hashcode (znajdziesz go w swoim panelu webmastera);
 1. W ustawieniach wtyczki możesz także: zmienić kodowanie znaków, jeśli jest inne niż UTF-8, włączyć tryb testowy, aby zobaczyć podgląd boksu reklamowego w miejscu, gdzie został on umieszczony, wyczyścić cache, jeśli dokonałeś zmian w szablonie boksu reklamowego;
 1. Przed wysłaniem serwisu na indeksację należy wyłączyć tryb testowy;
-1. W menu Wigety znajdź wiget Seopilot i dodaj go (np: przeciągając myszką) w miejscu, gdzie będą wyświetlane reklamy, np. w sidebarze;
+1. W menu Personalizacja (/wp-admin/customize.php) znajdź widget Seopilot i dodaj go w miejscu, gdzie będą wyświetlane reklamy, np. w sidebarze.;
 1. Wywołanie skryptu możliwe jest także za pomocą shortcode-ów:
  - `<?php echo do_shortcode('[seopilot_build_links count=false orientation="v"]'); ?>` - domyślna konfiguracja,
  - `<?php echo do_shortcode('[seopilot_build_links_is count=false orientation="v"] <hr>%links%[/seopilot_build_links_is]'); ?>` - umożliwia indywidualną konfigurację
