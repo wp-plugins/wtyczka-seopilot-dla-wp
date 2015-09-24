@@ -512,13 +512,13 @@ class SeoPilotClient
 		@ini_set('allow_url_fopen', 1);
 		@ini_set('default_socket_timeout', self::$sp_socket_timeout);
 
-		if (($data = @file_get_contents('http://' . $host . $path)) !== false)
+		if (($data = @file_get_contents('https://' . $host . $path)) !== false)
 		{
 			return $data;
 		}
 		if ($ch = @curl_init())
 		{
-			@curl_setopt($ch, CURLOPT_URL, 'http://' . $host . $path);
+			@curl_setopt($ch, CURLOPT_URL, 'https://' . $host . $path);
 			@curl_setopt($ch, CURLOPT_HEADER, false);
 			@curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 			@curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, self::$sp_socket_timeout);
@@ -531,7 +531,7 @@ class SeoPilotClient
 		}
 
 		$buff = '';
-		$fp = @fsockopen($host, 80, $errno, $errstr, self::$sp_socket_timeout);
+		$fp = @fsockopen($host, 443, $errno, $errstr, self::$sp_socket_timeout);
 		if ($fp)
 		{
 			@fputs($fp, "GET {$path} HTTP/1.0\r\nHost: {$host}\r\n");
@@ -545,7 +545,7 @@ class SeoPilotClient
 			return $page[1];
 		}
 
-		$this->__raiseError("Can't connect to server: " . $host . $path.' ['.$errstr.']');
+		@$this->__raiseError("Can't connect to server: " . $host . $path.' ['.$errstr.']');
 		return '';
 	}
 
